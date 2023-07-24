@@ -1,19 +1,17 @@
 {
+  "title": "Bounds",
   "type": "object",
-  "title": "LatLngLiteral",
-  "description": "An object describing a specific location with Latitude and Longitude in decimal degrees.",
+  "description": "A rectangle in geographical coordinates from points at the southwest and northeast corners.",
   "required": [
-    "lat",
-    "lng"
+    "northeast",
+    "southwest"
   ],
   "properties": {
-    "lat": {
-      "type": "number",
-      "description": "Latitude in decimal degrees"
+    "northeast": {
+      "$ref": "./LatLngLiteral.yml"
     },
-    "lng": {
-      "type": "number",
-      "description": "Longitude in decimal degrees"
+    "southwest": {
+      "$ref": "./LatLngLiteral.yml"
     }
   }
 }
