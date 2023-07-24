@@ -8,10 +8,10 @@
   ],
   "properties": {
     "northeast": {
-      "$ref": "./LatLngLiteral.yml"
+      "$ref": "./latlng.json"
     },
     "southwest": {
-      "$ref": "./LatLngLiteral.yml"
+      "$ref": "./latlng.json"
     }
   }
 }
