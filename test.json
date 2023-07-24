@@ -11,7 +11,7 @@
       "$ref": "./latlng.json"
     },
     "southwest": {
-      "$ref": "./latlng.json"
+      "$ref": "https://raw.githubusercontent.com/googlemaps/openapi-specification/main/specification/schemas/Geometry.yml"
     }
   }
 }
